@@ -1,0 +1,17 @@
+---
+:servers:
+  blinky build:
+    'Test :: run':
+      :activity: :sleeping
+      :last_build_status: :success
+      :last_build_time: 1454538970
+      :url: http://localhost:8153/go/pipelines/Test/1/run/1
+      :last_label: '1'
+    'Test :: run :: run':
+      :activity: :sleeping
+      :last_build_status: :success
+      :last_build_time: 1454538970
+      :url: http://localhost:8153/go/tab/build/detail/Test/1/run/1/run
+      :last_label: '1'
+:repos: {}
+:sites: {}
